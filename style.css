@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.container{
+    width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav{
+    padding: 20px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 1px solid lightgray;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+
+}
+
+
+ nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+.maintext{
+    width: 650px;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px
+}
+
+.section1{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    gap: 20px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 50px;
+}
+
+
+.section2{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    gap:50px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 50px;
+}
+
+
+
+.section2 button{
+    margin-top: 80px;
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    transition: 0.5s all;
+
+}
+
+.section2 button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section3{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    gap: 30px;
+
+    margin-bottom: 80px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
